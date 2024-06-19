@@ -15,7 +15,8 @@ After the database was split up into 7 tables with the specific entities becomin
 The last step of converting the dataset into tables was to populate them in MySQL. I was able to easily select the option to create a new schema and name the database appropriately. Once I refreshed the schemas I was able to see my new database and select tables. From here I used the Table Import Data Wizard to upload each CSV that was associated with each table. Here I was given the option to confirm the data types and select primary keys of each table.
 
 Queries: 
-Question 1: Which leagues are in which European Country and what are the most popular leagues based on how many teams play in each league?
+
+# Question 1: Which leagues are in which European Country and what are the most popular leagues based on how many teams play in each league?
 
 Insights: 
 11 countries 
@@ -26,7 +27,7 @@ Switzerland Super 9 teams
 
 <img width="922" alt="Screenshot 2024-06-19 at 9 27 04 AM" src="https://github.com/lex910/SQL-European-Soccer-/assets/101606445/fe920f07-dda2-4c39-a38d-2e30d579ce92">
 
-Question 2: In the 2015/2016 season are the number of home and away games played consistent across leagues?
+# Question 2: In the 2015/2016 season are the number of home and away games played consistent across leagues?
 
 Insights: 
 Within  each league every team played the same amount of home and away games
@@ -35,14 +36,19 @@ Spain LIGA, Scotland Premier, and Italy Serie A, Premier league, and France Ligu
 
 Poland Ekstraklasa and Belgium Jupiler had the least with 15 home, 15 away 
 
-Question 3: Which players have the highest max overall rating based off of their highest received rating over their career?
+# Question 3: Which players have the highest max overall rating based off of their highest received rating over their career?
 
+Insights: 
 <img width="864" alt="Screenshot 2024-06-19 at 9 59 06 AM" src="https://github.com/lex910/SQL-European-Soccer-/assets/101606445/813d96dc-270c-48f6-a87b-ab522e6c8f1a">
 
-Question 4: Which teams had the most wins in each league during the 2015/2016 season?
+# Question 4: Which teams had the most wins in each league during the 2015/2016 season?
+
+Insights:
 <img width="848" alt="Screenshot 2024-06-19 at 9 59 56 AM" src="https://github.com/lex910/SQL-European-Soccer-/assets/101606445/1594741e-ee18-4bb3-a10a-06987e4cca61">
 
-Question 5: What were the top scoring teams in each league during the most recent (2015/2016) season?
+# Question 5: What were the top scoring teams in each league during the most recent (2015/2016) season?
+
+Insights:
 Spain Liga: Barcelona, 112 goals 
 France Ligue:Paris St. Germain, 102 goals  
 Scotland Premier: Celtic, 93 goals 
@@ -55,11 +61,14 @@ England Premier: Manchester City, 71 goals
 Belgium Jupiler: Club Brugge, 64 goals 
 Poland Ekstraklasa: Legia Warszawa, 58 goals 
 
-Question 6: Is there a home team advantage (on average more home team goals than away team goals) for each season?
+# Question 6: Is there a home team advantage (on average more home team goals than away team goals) for each season?
 
+Insights: 
 <img width="868" alt="Screenshot 2024-06-19 at 10 00 49 AM" src="https://github.com/lex910/SQL-European-Soccer-/assets/101606445/feb9f9f8-cd40-4928-87c6-36643faf45a3">
 
-Question 7: Which teams are best defensively in each league given the number of goals conceded in the most recent season?
+# Question 7: Which teams are best defensively in each league given the number of goals conceded in the most recent season?
+
+Insights: 
 Spain Liga: Atletico Madrid
 France Ligue:Losc Lille
 Scotland Premier: Celtic (also most goals) 
@@ -72,8 +81,9 @@ England Premier: Manchester City (also most goals)
 Belgium Jupiler: Club Brugge (also most goals) 
 Poland Ekstraklasa: Piast Gliwice
 
-Question 8: What are the player attributes of the top 4 highest ranked players in European Soccer based off of most recent ratings?
+# Question 8: What are the player attributes of the top 4 highest ranked players in European Soccer based off of most recent ratings?
 
+Inisghts: 
 <img width="867" alt="Screenshot 2024-06-19 at 10 01 44 AM" src="https://github.com/lex910/SQL-European-Soccer-/assets/101606445/7a1470ef-41b0-4462-93ea-0fae96eb4756">
 
 
