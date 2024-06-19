@@ -18,7 +18,7 @@ In order to convert the dataset into tables, it was first necessary to understan
 After the database was split up into 7 tables with the specific entities becoming the columns, relationships between table entities needed to be established to link the tables to one another. Primary keys are foreign keys linked the tables together based on similar attributes that appear between two tables.
 The last step of converting the dataset into tables was to populate them in MySQL. I was able to easily select the option to create a new schema and name the database appropriately. Once I refreshed the schemas I was able to see my new database and select tables. From here I used the Table Import Data Wizard to upload each CSV that was associated with each table. Here I was given the option to confirm the data types and select primary keys of each table.
 
-# Questions quieried:  
+# Questions queried:  
 
 ## Question 1: Which leagues are in which European Country and what are the most popular leagues based on how many teams play in each league?
 
